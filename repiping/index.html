@@ -18,6 +18,7 @@
 <meta property="og:url" content="https://247plumbernaples.com/repiping/">
 <meta name="twitter:card" content="summary_large_image">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="/assets/images/naples-repiping.jpg" fetchpriority="high">
 <style>
 :root{--esp:#3B2A22;--esp-d:#291B15;--cobalt:#2C6ECB;--cobalt-d:#2158A8;--gray:#5C574F;--line:#E9E2D8;--bg:#FFFFFF}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -155,6 +156,48 @@ footer .fgrid{grid-template-columns:1fr}
 body{padding-bottom:70px}
 }
 @media(max-width:600px){.cards,.why,.areas{grid-template-columns:1fr}.hero h1{font-size:30px}.sec h2{font-size:26px}}
+
+/* v11 */
+body{line-height:1.65}
+main p+p{margin-top:14px}
+main p{font-size:16px}
+.card p,.statpanel p,.strow,.zip-chip,.prep-card p{font-size:14.5px}
+.sec h2{margin:10px 0 14px}
+.sec h2+.cards,.sec h2+.pricetable{margin-top:8px}
+.sec p.lead{font-size:16px;margin-bottom:14px}
+.faqitem p{font-size:16px}
+.faqitem h3{margin-bottom:10px}
+.hero.has-hero{position:relative;isolation:isolate;overflow:hidden}
+.hero.has-hero .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;display:block}
+.hero.has-hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(41,27,21,.95) 0%,rgba(41,27,21,.84) 46%,rgba(41,27,21,.6) 100%)}
+.hero.has-hero .wrap{position:relative;z-index:1}
+.sec.twosec{background:#F7F3EC;padding:70px 0 40px;margin-top:-46px}
+.twocol{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:32px;align-items:start}
+.twocol article{min-width:0}
+.twosec article .sec{clip-path:none;margin:0 0 22px;padding:36px 32px;border-radius:16px;z-index:auto}
+.twosec article .sec .wrap{max-width:none;padding:0}
+.twosec article .sec.d .kick{color:#8FB6E8}
+.twosec article .cards{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.twosec article .faq{max-width:none}
+.hero.has-hero .statpanel{background:rgba(41,27,21,.82)}
+.hero.has-hero .strow b,.hero.has-hero .statpanel a{color:#8FB6E8}
+.sec h2{line-height:1.2}
+.srcnote{font-size:14px!important;color:var(--gray);margin-top:16px}
+.safelist{margin:10px 0 0 20px;font-size:15px;color:var(--gray)}
+.safelist li{margin:6px 0}
+.sec.localnote{border-left:5px solid var(--cobalt)}
+.sidecard{position:sticky;top:24px;align-self:start;background:var(--esp-d);color:#fff;border-radius:16px;padding:26px 24px;box-shadow:0 14px 30px rgba(41,27,21,.25)}
+.sidecard .kick{color:#8FB6E8;margin-bottom:8px}
+.sidecard h3{font-size:21px;line-height:1.2;margin-bottom:10px}
+.sidecard p{color:#C9B9AD;margin-bottom:16px;font-size:15px}
+.sidecard .btn{width:100%;justify-content:center;padding:14px 16px}
+.sidecard ul{list-style:none;margin:18px 0 14px}
+.sidecard li{font-size:14.5px;color:#E7DDD3;padding:6px 0 6px 26px;position:relative;border-top:1px solid rgba(255,255,255,.1)}
+.sidecard li:first-child{border-top:none}
+.sidecard li:before{content:"\2713";position:absolute;left:0;color:#8FB6E8;font-weight:800}
+.sidecard .sc-link{display:block;color:#8FB6E8;font-weight:700;font-size:14.5px;text-decoration:none}
+.sidecard .sc-link:hover{text-decoration:underline}
+@media(max-width:900px){.twocol{grid-template-columns:1fr}.sidecard{position:static}.twosec article .sec{padding:28px 20px}}
 </style>
 </head>
 <body>
@@ -241,7 +284,7 @@ body{padding-bottom:70px}
 
 <main id="main-content">
 
-<section class="hero"><div class="wrap">
+<section class="hero has-hero"><img class="hero-bg" src="/assets/images/naples-repiping.jpg" alt="Exposed new piping during a repiping project in a Naples, FL home" width="1600" height="900" fetchpriority="high" decoding="async"><div class="wrap">
 <div>
 <div class="badge">Older Home Specialists</div>
 <h1>Whole-Home Repiping in <span>Naples, FL</span></h1>
@@ -254,11 +297,8 @@ body{padding-bottom:70px}
 <div class="strow"><span>Estimates</span><b>Free, No Obligation</b></div>
 </div>
 </div></section>
-<section class="photo-banner"><div class="wrap">
-<img src="/assets/images/naples-repiping.jpg" alt="Exposed new piping during a repiping project in a Naples, FL home" width="1600" height="900" loading="lazy">
-</div></section>
-
-
+<section class="sec twosec"><div class="wrap twocol">
+<article>
 <section class="sec a"><div class="wrap">
 <div class="kick">Repeated Leaks? Here's The Bridge</div>
 <h2>One Leak Is A Repair. Three Leaks Is A Pattern.</h2>
@@ -311,6 +351,18 @@ body{padding-bottom:70px}
 </div></section>
 
 <section class="sec a"><div class="wrap">
+<div class="kick">Water Service Line</div>
+<h2>Replacing The Water Service Line From The Meter To The House</h2>
+<p class="lead">A surprising number of repipe calls are not about the house at all. Homeowners need to replace the line from the meter to the house, which may be hundreds of feet long on a larger lot, and they want a quote.</p>
+<p>We confirm where the line runs and which parts are on your side of the meter before pricing it. In unincorporated Collier County, the county's billing FAQ says the utility is not responsible for leaks on the customer side of the meter or backflow device.</p>
+</div></section>
+<section class="sec b"><div class="wrap">
+<div class="kick">Old Pipe Materials</div>
+<h2>Lead, Galvanized, And Other Pipe Questions</h2>
+<p class="lead">Some older homes in the area may still have galvanized steel supply lines, and EPA notes that lead service lines are most often found in homes built before 1986. The Collier County Water-Sewer District's latest water quality report says it has identified no lead service lines in its service area.</p>
+<p>If you are not sure what your lines are made of, ask your utility first, as EPA advises, and have a licensed plumber check the pipe at the meter and where it enters the house. A whole-house repipe through the attic is one option when the walls would be costly to open.</p>
+</div></section>
+<section class="sec a"><div class="wrap">
 <div class="kick">Common Questions</div>
 <h2>Repiping FAQ</h2>
 <div class="faq">
@@ -319,8 +371,19 @@ body{padding-bottom:70px}
 <div class="faqitem"><h3>Is PEX as durable as copper long-term?</h3><p>PEX has a strong multi-decade track record at this point and is code-approved throughout Florida. The main trade-off is copper's longer historical track record versus PEX's lower cost and easier installation.</p></div>
 <div class="faqitem"><h3>Will you need to cut into my walls or ceiling?</h3><p>Some small access openings are usually needed. We'll show you where beforehand and patch them when the work is done.</p></div>
 <div class="faqitem"><h3>Does repiping increase my home's resale value?</h3><p>New supply piping is a real, documentable improvement that removes a common inspection flag, and permitted work with a final inspection gives a future buyer confidence the plumbing was done correctly. Many sellers of older homes mention a recent repipe explicitly in their listing for exactly this reason.</p></div>
+<div class="faqitem"><h3>Can you replace just the water line from the meter, instead of the whole house?</h3><p>Yes. A service line replacement is a separate job from a repipe, and we price it after we confirm where the line runs and where your responsibility starts.</p></div>
 </div>
 <p style="margin-top:22px;font-size:14.5px;color:var(--gray)">Dealing with repeated leaks? Call <a href="tel:+12395220887" style="color:var(--cobalt-d);font-weight:700">(239) 522-0887</a>.</p>
+</div></section>
+</article>
+<aside class="sidecard" aria-label="24/7 emergency line">
+<div class="kick">24/7 Emergency Line Open</div>
+<h3>Pipes Failing One By One?</h3>
+<p>Ask for a written repipe quote before any walls are opened.</p>
+<a class="btn" href="tel:+12395220887">☎ (239) 522-0887</a>
+<ul><li>A flat, written quote before work begins</li><li>Licensed plumbers</li><li>Same-day service available</li><li>Naples and all of Collier County</li></ul>
+<a class="sc-link" href="/leak-detection/">Leak detection &rarr;</a>
+</aside>
 </div></section>
 
 </main>
@@ -429,53 +492,6 @@ body{padding-bottom:70px}
   "url": "https://247plumbernaples.com/repiping/"
 }
 </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a whole-home repipe take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most homes take two to four days depending on size and whether walls need to be opened and repaired afterward."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will I have water during the repipe?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Water is typically off during active work hours and restored each evening. We'll walk through the exact schedule before starting."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is PEX as durable as copper long-term?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "PEX has a strong multi-decade track record at this point and is code-approved throughout Florida. The main trade-off is copper's longer historical track record versus PEX's lower cost and easier installation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will you need to cut into my walls or ceiling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Some small access openings are usually needed. We'll show you where beforehand and patch them when the work is done."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does repiping increase my home's resale value?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "New supply piping is a real, documentable improvement that removes a common inspection flag, and permitted work with a final inspection gives a future buyer confidence the plumbing was done correctly. Many sellers of older homes mention a recent repipe explicitly in their listing for exactly this reason."
-      }
-    }
-  ]
-}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long does a whole-home repipe take?", "acceptedAnswer": {"@type": "Answer", "text": "Most homes take two to four days depending on size and whether walls need to be opened and repaired afterward."}}, {"@type": "Question", "name": "Will I have water during the repipe?", "acceptedAnswer": {"@type": "Answer", "text": "Water is typically off during active work hours and restored each evening. We'll walk through the exact schedule before starting."}}, {"@type": "Question", "name": "Is PEX as durable as copper long-term?", "acceptedAnswer": {"@type": "Answer", "text": "PEX has a strong multi-decade track record at this point and is code-approved throughout Florida. The main trade-off is copper's longer historical track record versus PEX's lower cost and easier installation."}}, {"@type": "Question", "name": "Will you need to cut into my walls or ceiling?", "acceptedAnswer": {"@type": "Answer", "text": "Some small access openings are usually needed. We'll show you where beforehand and patch them when the work is done."}}, {"@type": "Question", "name": "Does repiping increase my home's resale value?", "acceptedAnswer": {"@type": "Answer", "text": "New supply piping is a real, documentable improvement that removes a common inspection flag, and permitted work with a final inspection gives a future buyer confidence the plumbing was done correctly. Many sellers of older homes mention a recent repipe explicitly in their listing for exactly this reason."}}, {"@type": "Question", "name": "Can you replace just the water line from the meter, instead of the whole house?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A service line replacement is a separate job from a repipe, and we price it after we confirm where the line runs and where your responsibility starts."}}]}</script>
 </body>
 </html>

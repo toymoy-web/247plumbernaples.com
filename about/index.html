@@ -140,6 +140,48 @@ footer .fgrid{grid-template-columns:1fr}
 body{padding-bottom:70px}
 }
 @media(max-width:600px){.cards,.why,.areas{grid-template-columns:1fr}.hero h1{font-size:30px}.sec h2{font-size:26px}}
+
+/* v11 */
+body{line-height:1.65}
+main p+p{margin-top:14px}
+main p{font-size:16px}
+.card p,.statpanel p,.strow,.zip-chip,.prep-card p{font-size:14.5px}
+.sec h2{margin:10px 0 14px}
+.sec h2+.cards,.sec h2+.pricetable{margin-top:8px}
+.sec p.lead{font-size:16px;margin-bottom:14px}
+.faqitem p{font-size:16px}
+.faqitem h3{margin-bottom:10px}
+.hero.has-hero{position:relative;isolation:isolate;overflow:hidden}
+.hero.has-hero .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;display:block}
+.hero.has-hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(41,27,21,.95) 0%,rgba(41,27,21,.84) 46%,rgba(41,27,21,.6) 100%)}
+.hero.has-hero .wrap{position:relative;z-index:1}
+.sec.twosec{background:#F7F3EC;padding:70px 0 40px;margin-top:-46px}
+.twocol{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:32px;align-items:start}
+.twocol article{min-width:0}
+.twosec article .sec{clip-path:none;margin:0 0 22px;padding:36px 32px;border-radius:16px;z-index:auto}
+.twosec article .sec .wrap{max-width:none;padding:0}
+.twosec article .sec.d .kick{color:#8FB6E8}
+.twosec article .cards{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.twosec article .faq{max-width:none}
+.hero.has-hero .statpanel{background:rgba(41,27,21,.82)}
+.hero.has-hero .strow b,.hero.has-hero .statpanel a{color:#8FB6E8}
+.sec h2{line-height:1.2}
+.srcnote{font-size:14px!important;color:var(--gray);margin-top:16px}
+.safelist{margin:10px 0 0 20px;font-size:15px;color:var(--gray)}
+.safelist li{margin:6px 0}
+.sec.localnote{border-left:5px solid var(--cobalt)}
+.sidecard{position:sticky;top:24px;align-self:start;background:var(--esp-d);color:#fff;border-radius:16px;padding:26px 24px;box-shadow:0 14px 30px rgba(41,27,21,.25)}
+.sidecard .kick{color:#8FB6E8;margin-bottom:8px}
+.sidecard h3{font-size:21px;line-height:1.2;margin-bottom:10px}
+.sidecard p{color:#C9B9AD;margin-bottom:16px;font-size:15px}
+.sidecard .btn{width:100%;justify-content:center;padding:14px 16px}
+.sidecard ul{list-style:none;margin:18px 0 14px}
+.sidecard li{font-size:14.5px;color:#E7DDD3;padding:6px 0 6px 26px;position:relative;border-top:1px solid rgba(255,255,255,.1)}
+.sidecard li:first-child{border-top:none}
+.sidecard li:before{content:"\2713";position:absolute;left:0;color:#8FB6E8;font-weight:800}
+.sidecard .sc-link{display:block;color:#8FB6E8;font-weight:700;font-size:14.5px;text-decoration:none}
+.sidecard .sc-link:hover{text-decoration:underline}
+@media(max-width:900px){.twocol{grid-template-columns:1fr}.sidecard{position:static}.twosec article .sec{padding:28px 20px}}
 </style>
 </head>
 <body>
@@ -274,7 +316,27 @@ body{padding-bottom:70px}
 <iframe src="https://maps.google.com/maps?q=Naples,+FL&output=embed&z=10" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Naples 24/7 Plumbing service area map" aria-label="Naples 24/7 Plumbing service area map" style="width:100%;height:300px;border:0;border-radius:14px"></iframe>
 </div></div>
 
-<section class="sec b"><div class="wrap" style="text-align:center">
+<section class="sec b"><div class="wrap">
+<div class="kick">How Calls Go</div>
+<h2>What Happens On An Emergency Call</h2>
+<p class="lead">When someone calls our emergency line, the first questions are simple. Where is the water, can you reach the main shutoff, and is anyone at risk from electricity or sewage? Those answers tell us how fast to move and what to bring.</p>
+<p>We hear the same worries again and again. People want to know how soon someone can come, whether the price will be a surprise, and whether the same company can both find a problem and fix it. We answer all three on the first call.</p>
+<p>The most common emergency calls are a leaking water heater, a toilet that will not stop overflowing, sewage backing up into a tub, water coming through a ceiling, and a house with no water at all. Each has its own page on this site, such as <a href="/water-heater-repair/">emergency water heater repair</a> and <a href="/sewer-line-repair/">emergency sewer line repair</a>, with steps to take before we arrive.</p>
+</div></section>
+<section class="sec a"><div class="wrap">
+<div class="kick">Who Calls</div>
+<h2>Homeowners, Landlords, And Property Managers</h2>
+<p class="lead">Not every call comes from a homeowner. Landlords and property managers phone about a rental with a leak in one unit, a clogged main serving several apartments, or a floor drain overflowing in a plaza. They need quick answers they can pass to tenants, and a clear scope before anyone is dispatched.</p>
+<p>We take those calls the same way. Describe the building, the symptoms, and who has access, and we explain what the visit involves. Buyers and sellers call too, usually for a sewer camera inspection or a <a href="/leak-detection/">leak check</a> before a sale closes.</p>
+<p>Whatever the reason for the call, the goal is the same. We find the real cause, explain it in plain language, and quote the work before it starts.</p>
+</div></section>
+<section class="sec b"><div class="wrap">
+<div class="kick">Seasonal Homes</div>
+<h2>Seasonal Homes And Vacant Properties</h2>
+<p class="lead">Many Naples homes sit empty for months while owners are away. A small leak in a vacant house can run for weeks, so a shutoff and a regular check matter more here than in a full-time home.</p>
+<p>If you come back and find water, call us and tell us how long the home was empty. That helps us look in the right places, including the buried line between the meter and the house. If the damage is already widespread, we can point you to our <a href="/water-damage-restoration/">emergency water damage restoration</a> team.</p>
+</div></section>
+<section class="sec a"><div class="wrap" style="text-align:center">
 <h2 style="margin-bottom:14px">Have A Plumbing Issue Right Now?</h2>
 <div class="cta-row" style="justify-content:center"><a class="btn" href="tel:+12395220887">☎ Call (239) 522-0887</a></div>
 </div></section>
